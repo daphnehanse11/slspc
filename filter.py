@@ -1,78 +1,68 @@
-import pandas as pd
+import csv
 
-def create_filtered_dataset(input_file):
-    """
-    Create a filtered dataset with one ZIP code per rating area per state.
+def filter_zero_cost(csv_path):
+    filtered_data = []
     
-    Args:
-        input_file (str): Path to the merged results CSV
+    # Open and read the CSV file
+    with open(csv_path, 'r') as file:
+        # First, let's look at the structure
+        csv_reader = csv.reader(file)
+        header = next(csv_reader)
         
-    Returns:
-        pd.DataFrame: Filtered dataset with one ZIP per rating area
-    """
-    # Read the merged results
-    df = pd.read_csv(input_file)
-    
-    # Get first ZIP code for each state-rating area combination
-    filtered_df = df.groupby(['state', 'rating_area']).agg({
-        'zip_code': 'first'
-    }).reset_index()
-    
-    # Ensure ZIP codes are 5 digits
-    filtered_df['zip_code'] = filtered_df['zip_code'].astype(str).str.zfill(5)
-    
-    # Create CSV for scraper (just ZIP codes)
-    filtered_df[['zip_code']].to_csv('zips_to_scrape.csv', index=False)
-    
-    # Save full filtered dataset for reference
-    filtered_df.to_csv('filtered_dataset.csv', index=False)
-    
-    return filtered_df
-
-def map_results_back(original_file, scraped_results_file):
-    """
-    Map the scraped results back to all ZIP codes.
-    
-    Args:
-        original_file (str): Path to original merged results CSV
-        scraped_results_file (str): Path to CSV with scraped data
+        # Print header to see the column structure
+        print("Column headers:", header)
         
-    Returns:
-        pd.DataFrame: Complete dataset with mapped results
-    """
-    # Read original dataset and scraped results
-    original_df = pd.read_csv(original_file)
-    scraped_df = pd.read_csv(scraped_results_file)
+        # Find the index of the cost column
+        cost_column_index = None
+        for i, col in enumerate(header):
+            if 'cost' in col.lower() or 'unsubsidized' in col.lower():
+                cost_column_index = i
+                print(f"Found cost column at index {i}: {col}")
+                break
+        
+        if cost_column_index is None:
+            raise ValueError("Could not find cost column in CSV")
+            
+        # Now process the rows
+        for row in csv_reader:
+            # Debug print for the first few rows
+            if len(filtered_data) < 3:  # Only print first 3 rows
+                print(f"Processing row: {row}")
+                
+            try:
+                # Make sure the row has enough columns
+                if len(row) <= cost_column_index:
+                    print(f"Skipping malformed row: {row}")
+                    continue
+                    
+                # Get the cost value
+                cost = row[cost_column_index].strip('"').replace(',', '')
+                
+                # Convert cost to float and check if it's 0
+                if cost and float(cost) == 0:
+                    filtered_data.append(row)
+            except ValueError as e:
+                print(f"Could not process row {row}: {str(e)}")
+                continue
     
-    # Create mapping dictionary from scraped results
-    # Assuming scraped_results has columns: state, zip_code, unsubsidized_cost
-    mapping_df = pd.merge(
-        scraped_df,
-        original_df[['zip_code', 'state', 'rating_area']].drop_duplicates(),
-        on=['zip_code', 'state']
-    )
-    
-    cost_mapping = mapping_df.set_index(['state', 'rating_area'])['unsubsidized_cost'].to_dict()
-    
-    # Map costs back to original dataset
-    original_df['unsubsidized_cost'] = original_df.apply(
-        lambda row: cost_mapping.get((row['state'], row['rating_area'])), 
-        axis=1
-    )
-    
-    # Save final results
-    original_df.to_csv('final_results.csv', index=False)
-    
-    return original_df
+    return header, filtered_data
 
-# Example usage
-if __name__ == "__main__":
-    # Step 1: Create filtered dataset for scraping
-    filtered_df = create_filtered_dataset('merged_results_v9.csv')
-    print(f"Created filtered dataset with {len(filtered_df)} ZIP codes to scrape")
+# File path
+file_path = '/Users/daphnehansell/Documents/GitHub/slspc/zips_to_scrape.csv'
+
+# Run the filter
+try:
+    header, filtered = filter_zero_cost(file_path)
     
-    # After running the scraper...
-    
-    # Step 2: Map results back to all ZIP codes
-    # final_df = map_results_back('merged_results_v9.csv', 'scraped_results.csv')
-    # print(f"Mapped results to {len(final_df)} ZIP codes")
+    # Print results
+    print("\nResults:")
+    print(','.join(header))
+    for row in filtered:
+        print(','.join(row))
+        
+except FileNotFoundError:
+    print(f"Error: Could not find file at {file_path}")
+except Exception as e:
+    print(f"Error occurred: {str(e)}")
+    import traceback
+    traceback.print_exc()
