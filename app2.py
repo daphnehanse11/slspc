@@ -11,34 +11,34 @@ logging.basicConfig(level=logging.INFO)
 def scrape_kff_calculator(state, zip_code, age):
     """Scrapes the KFF subsidy calculator for a single (state, ZIP, age) and returns the unsubsidized cost."""
     with sync_playwright() as p:
-        # Set headless=False if you want to watch the browser. Slowing down helps debug.
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-
-        # Increase default timeout to 60 seconds
         page.set_default_timeout(60_000)
 
         try:
             page.goto("https://www.kff.org/interactive/subsidy-calculator/")
-
-            # Wait for the form to be visible
+            
+            # Wait for form and fill it out
             page.wait_for_selector("#subsidy-form", state="visible")
-
-            # Fill out the form
             page.select_option("#state-dd", state)
             page.fill("input[name='zip']", zip_code)
-            # Use a very high income to ensure unsubsidized cost is shown
+            
+            # Wait for county selector to appear and become enabled
+            page.wait_for_selector("select#county-dd:not([disabled])", timeout=10000)
+            # Give it a moment to populate
+            page.wait_for_timeout(1000)
+            
+            # Get available counties and select the first one
+            counties = page.eval_on_selector_all('select#county-dd option:not([disabled])', 'elements => elements.map(e => e.value)')
+            if counties and len(counties) > 1:  # Skip first empty option
+                page.select_option("#county-dd", counties[1])
+                
             page.fill("input[name='income']", "1000000")
-
-            # Assume no employer coverage
             page.click("#employer-coverage-0")
-
-            # 1-person household
             page.select_option("#number-people", "1")
 
-            # Age checks
+            # Age handling
             if state.upper() in ["NY", "VT"]:
-                # Some states require using #number-people-alternate for single enrollment
                 page.select_option("#number-people-alternate", "individual")
             else:
                 if age >= 21:
@@ -50,87 +50,128 @@ def scrape_kff_calculator(state, zip_code, age):
                     page.select_option("#number-children", "1")
                     page.select_option("select[name='children[0][age]']", str(age))
 
-            # Submit the form
+            # DEBUG: Log form values before submission
+            st.write(f"\nDEBUG for ZIP {zip_code}:")
+            st.write("State selected:", page.evaluate('document.querySelector("#state-dd").value'))
+            st.write("ZIP entered:", page.evaluate('document.querySelector("input[name=\'zip\']").value'))
+            st.write("Income entered:", page.evaluate('document.querySelector("input[name=\'income\']").value'))
+            
+            # Submit and wait for results
             page.click("input[type='submit'][value='Submit']")
-
-            # Wait for the results section to appear
+            
+            # Wait for results and check for errors
             page.wait_for_selector(".results-list", state="visible")
-
-            # **Crucial**: wait specifically for the text you care about to appear
-            page.wait_for_selector(
-                "dt:has-text('Without financial help, your silver plan would cost:') + dd",
-                timeout=60_000
-            )
-
-            # Optional: give the page a moment to render final numbers
-            page.wait_for_timeout(2000)
-
-            # Extract the data
-            unsubsidized_cost = extract_unsubsidized_cost(page, zip_code)
-
+            
+            # Check for error messages
+            error_messages = page.query_selector_all(".error-message, .alert-error")
+            if error_messages:
+                for msg in error_messages:
+                    st.write(f"Error found: {msg.inner_text()}")
+                    
+            # Take screenshot for debugging
+            page.screenshot(path=f"debug_{zip_code}.png")
+            
+            selector = "dt:has-text('Without financial help, your silver plan would cost:') + dd"
+            page.wait_for_selector(selector, state="visible", timeout=30000)
+            
+            # DEBUG: Log the entire results section
+            results_section = page.query_selector(".results-list")
+            if results_section:
+                st.write(f"Results section content: {results_section.inner_text()}")
+            
+            # Add extra wait to ensure cost is loaded
+            page.wait_for_timeout(3000)
+            
+            # Get the cost
+            cost_element = page.query_selector(selector)
+            if cost_element:
+                cost_text = cost_element.inner_text()
+                st.write(f"Raw cost text for ZIP {zip_code}: {cost_text}")
+                
+                # Extract the monthly cost
+                match = re.search(r"\$(\d+,?\d*)", cost_text)
+                if match:
+                    cost = match.group(1).replace(',', '')
+                    cost = int(cost)
+                    if cost > 0:
+                        browser.close()
+                        return cost
+            
             browser.close()
-
-            return {
-                "State": state,
-                "Zip": zip_code,
-                "Age": age,
-                "Unsubsidized Cost": unsubsidized_cost,
-            }
+            return 0
 
         except Exception as e:
-            logging.error(f"An error occurred while scraping (ZIP={zip_code}): {str(e)}")
+            logging.error(f"Error scraping ZIP {zip_code}: {str(e)}")
             browser.close()
-            # Reraise so we see the error in Streamlit
-            raise
-
-def extract_unsubsidized_cost(page, zip_code):
-    """Extract the 'Without financial help, your silver plan would cost:' text and parse out the dollar amount."""
-    try:
-        # Grab the text that appears next to the relevant dt
-        cost_text = page.inner_text(
-            "dt:has-text('Without financial help, your silver plan would cost:') + dd"
-        )
-        # Debug print
-        print(f"DEBUG for ZIP {zip_code}: {cost_text}")
-
-        match = re.search(r"\$(\d+,?\d*)", cost_text)
-        if match:
-            return match.group(1)  # Return the cost (e.g. "921" or "1,234")
-        else:
-            return "N/A"
-    except Exception as e:
-        logging.error(f"Error extracting unsubsidized cost (ZIP={zip_code}): {str(e)}")
-        return "N/A"
+            return 0
 
 def process_csv(df, state, age):
-    """Process all ZIP codes in a DataFrame, scraping KFF for each one."""
+    """Process all ZIP codes in a DataFrame, with retry logic for failed attempts."""
     results = []
     total_rows = len(df)
+    max_retries = 3
     
     progress_bar = st.progress(0)
     status_text = st.empty()
-
+    
+    st.write(f"Starting to process {total_rows} ZIP codes...")
+    
+    # Create empty DataFrame with correct schema
+    results_df = pd.DataFrame(columns=['State', 'ZIP', 'Age', 'Unsubsidized Cost'])
+    
     for index, row in df.iterrows():
-        zip_code = str(row['zip_code']).zfill(5)  # Ensure 5-digit ZIP code
-        try:
-            # --- SCRAPE ---
-            result = scrape_kff_calculator(state, zip_code, age)
-            results.append(result)
-        except Exception as e:
-            st.error(f"Error processing ZIP code {zip_code}: {str(e)}")
-
+        zip_code = str(row['zip_code']).zfill(5)
+        retry_count = 0
+        cost = 0
+        
+        while retry_count < max_retries and cost == 0:
+            if retry_count > 0:
+                st.write(f"Retrying ZIP {zip_code} (Attempt {retry_count + 1}/{max_retries})")
+                time.sleep(random.uniform(5, 8))
+            
+            cost = scrape_kff_calculator(state, zip_code, age)
+            if cost == 0:
+                retry_count += 1
+                
+        # Record the result as a new row in the DataFrame
+        new_row = pd.DataFrame([{
+            'State': state,
+            'ZIP': zip_code,
+            'Age': age,
+            'Unsubsidized Cost': cost if cost > 0 else 0  # Always use numeric value
+        }])
+        
+        results_df = pd.concat([results_df, new_row], ignore_index=True)
+        
         # Update progress
         progress = (index + 1) / total_rows
         progress_bar.progress(progress)
         status_text.text(f"Processed {index + 1} of {total_rows} ZIP codes")
-
-        # **Add a random delay** to reduce rate-limiting or server load
-        time.sleep(random.uniform(2, 5))
-
-    return pd.DataFrame(results)
+        
+        # Show result
+        if cost > 0:
+            st.write(f"✅ ZIP {zip_code}: ${cost}")
+        else:
+            st.write(f"❌ ZIP {zip_code}: Failed after {max_retries} attempts")
+        
+        # Delay between ZIPs
+        time.sleep(random.uniform(2, 4))
+    
+    st.write(f"Completed processing. Got {len(results_df)} results.")
+    
+    # Convert DataFrame to string representation for display
+    display_df = results_df.copy()
+    display_df['Unsubsidized Cost'] = display_df['Unsubsidized Cost'].apply(
+        lambda x: f"${x}" if x > 0 else "Failed - $0"
+    )
+    
+    st.write("Results DataFrame:")
+    st.write(display_df)
+    
+    return results_df
 
 def main():
-    st.title("KFF Second Lowest Cost Silver Plan Scraper (app2)")
+    st.title("KFF Second Lowest Cost Silver Plan Scraper (with retry logic)")
 
     st.sidebar.header("Input Parameters")
     state = st.sidebar.selectbox(
