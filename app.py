@@ -29,14 +29,10 @@ def scrape_kff_calculator(state, zip_code, age):
             if state.upper() in ["NY", "VT"]:
                 page.select_option("#number-people-alternate", "individual")
             else:
-                if age >= 21:
-                    page.select_option("#number-adults", "1")
-                    page.select_option("#number-children", "0")
-                    page.select_option("select[name='adults[0][age]']", str(age))
-                else:
-                    page.select_option("#number-adults", "0")
-                    page.select_option("#number-children", "1")
-                    page.select_option("select[name='children[0][age]']", str(age))
+                # Always select 0 adults and 1 child
+                page.select_option("#number-adults", "0")
+                page.select_option("#number-children", "1")
+                page.select_option("select[name='children[0][age]']", str(age))
 
             # Submit the form
             page.click("input[type='submit'][value='Submit']")
