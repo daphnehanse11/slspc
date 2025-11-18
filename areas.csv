@@ -5,25 +5,6 @@ AK,2,997
 AK,3,998
 AK,3,999
 AL,1,Calhoun
-AL,2,Lee
-AL,3,Bibb
-AL,3,Blount
-AL,3,Chilton
-AL,3,Jefferson
-AL,3,St. Clair
-AL,3,Shelby
-AL,3,Walker
-AL,4,Russell
-AL,5,Lawrence
-AL,5,Morgan
-AL,6,Geneva
-AL,6,Henry
-AL,6,Houston
-AL,7,Colbert
-AL,7,Lauderdale
-AL,8,Etowah
-AL,9,Limestone
-AL,9,Madison
 AL,10,Mobile
 AL,11,Autauga
 AL,11,Elmore
@@ -57,8 +38,8 @@ AL,13,Franklin
 AL,13,Jackson
 AL,13,Lamar
 AL,13,Macon
-AL,13,Marion
 AL,13,Marengo
+AL,13,Marion
 AL,13,Marshall
 AL,13,Monroe
 AL,13,Perry
@@ -71,148 +52,151 @@ AL,13,Tallapoosa
 AL,13,Washington
 AL,13,Wilcox
 AL,13,Winston
+AL,2,Lee
+AL,3,Bibb
+AL,3,Blount
+AL,3,Chilton
+AL,3,Jefferson
+AL,3,Shelby
+AL,3,St. Clair
+AL,3,Walker
+AL,4,Russell
+AL,5,Lawrence
+AL,5,Morgan
+AL,6,Geneva
+AL,6,Henry
+AL,6,Houston
+AL,7,Colbert
+AL,7,Lauderdale
+AL,8,Etowah
+AL,9,Limestone
+AL,9,Madison
 AR,1,Cleburne
-AR,1,Lonoke
-AR,1,Pulaski
-AR,1,Yell
 AR,1,Conway
-AR,1,Perry
-AR,1,Saline
 AR,1,Faulkner
-AR,1,Pope
-AR,1,Van Buren
 AR,1,Grant
+AR,1,Lonoke
+AR,1,Perry
+AR,1,Pope
 AR,1,Prairie
+AR,1,Pulaski
+AR,1,Saline
+AR,1,Van Buren
 AR,1,White
+AR,1,Yell
 AR,2,Clay
-AR,2,Fulton
-AR,2,Jackson
-AR,2,Randolph
-AR,2,Woodruff
 AR,2,Craighead
-AR,2,Greene
-AR,2,Lawrence
-AR,2,Sharp
 AR,2,Crittenden
-AR,2,Independence
-AR,2,Mississippi
-AR,2,St. Francis
 AR,2,Cross
+AR,2,Fulton
+AR,2,Greene
+AR,2,Independence
 AR,2,Izard
+AR,2,Jackson
+AR,2,Lawrence
+AR,2,Mississippi
 AR,2,Poinsett
+AR,2,Randolph
+AR,2,Sharp
+AR,2,St. Francis
 AR,2,Stone
+AR,2,Woodruff
 AR,3,Baxter
-AR,3,Madison
-AR,3,Washington
 AR,3,Benton
-AR,3,Marion
 AR,3,Boone
-AR,3,Newton
 AR,3,Carroll
+AR,3,Madison
+AR,3,Marion
+AR,3,Newton
 AR,3,Searcy
+AR,3,Washington
 AR,4,Clark
-AR,4,Pike
 AR,4,Garland
 AR,4,Hot Spring
 AR,4,Montgomery
+AR,4,Pike
 AR,5,Arkansas
-AR,5,Cleveland
-AR,5,Jefferson
-AR,5,Phillips
 AR,5,Ashley
-AR,5,Dallas
-AR,5,Lee
 AR,5,Bradley
-AR,5,Desha
-AR,5,Lincoln
 AR,5,Chicot
+AR,5,Cleveland
+AR,5,Dallas
+AR,5,Desha
 AR,5,Drew
+AR,5,Jefferson
+AR,5,Lee
+AR,5,Lincoln
 AR,5,Monroe
+AR,5,Phillips
 AR,6,Calhoun
-AR,6,Lafayette
-AR,6,Ouachita
 AR,6,Columbia
-AR,6,Little River
-AR,6,Sevier
 AR,6,Hempstead
-AR,6,Miller
-AR,6,Union
 AR,6,Howard
+AR,6,Lafayette
+AR,6,Little River
+AR,6,Miller
 AR,6,Nevada
+AR,6,Ouachita
+AR,6,Sevier
+AR,6,Union
 AR,7,Crawford
-AR,7,Scott
-AR,7,Polk
 AR,7,Franklin
-AR,7,Sebastian
 AR,7,Johnson
 AR,7,Logan
-AZ,1,Mohave
-AZ,1,Coconino
+AR,7,Polk
+AR,7,Scott
+AR,7,Sebastian
 AZ,1,Apache
+AZ,1,Coconino
+AZ,1,Mohave
 AZ,1,Navajo
 AZ,2,Yavapai
 AZ,3,La Paz
 AZ,3,Yuma
 AZ,4,Maricopa
-AZ,5,Pinal
 AZ,5,Gila
+AZ,5,Pinal
 AZ,6,Pima
 AZ,6,Santa Cruz
+AZ,7,Cochise
 AZ,7,Graham
 AZ,7,Greenlee
-AZ,7,Cochise
 CA,1,Alpine
-CA,1,Del Norte
-CA,1,Siskiyou
-CA,1,Modoc
-CA,1,Lassen
-CA,1,Shasta
-CA,1,Trinity
-CA,1,Humboldt
-CA,1,Tehama
-CA,1,Plumas
-CA,1,Nevada
-CA,1,Sierra
-CA,1,Mendocino
-CA,1,Lake
-CA,1,Butte
-CA,1,Glenn
-CA,1,Sutter
-CA,1,Yuba
-CA,1,Colusa
 CA,1,Amador
+CA,1,Butte
 CA,1,Calaveras
+CA,1,Colusa
+CA,1,Del Norte
+CA,1,Glenn
+CA,1,Humboldt
+CA,1,Lake
+CA,1,Lassen
+CA,1,Mendocino
+CA,1,Modoc
+CA,1,Nevada
+CA,1,Plumas
+CA,1,Shasta
+CA,1,Sierra
+CA,1,Siskiyou
+CA,1,Sutter
+CA,1,Tehama
+CA,1,Trinity
 CA,1,Tuolumne
-CA,2,Napa
-CA,2,Sonoma
-CA,2,Solano
-CA,2,Marin
-CA,3,Sacramento
-CA,3,Placer
-CA,3,El Dorado
-CA,3,Yolo
-CA,4,San Francisco
-CA,5,Contra Costa
-CA,6,Alameda
-CA,7,Santa Clara
-CA,8,San Mateo
-CA,9,Santa Cruz
-CA,9,Monterey
-CA,9,San Benito
+CA,1,Yuba
+CA,10,Mariposa
+CA,10,Merced
 CA,10,San Joaquin
 CA,10,Stanislaus
-CA,10,Merced
-CA,10,Mariposa
 CA,10,Tulare
-CA,11,Madera
 CA,11,Fresno
 CA,11,Kings
+CA,11,Madera
 CA,12,San Luis Obispo
 CA,12,Santa Barbara
 CA,12,Ventura
-CA,13,Mono
-CA,13,Inyo
 CA,13,Imperial
+CA,13,Inyo
+CA,13,Mono
 CA,14,Kern
 CA,15,906
 CA,15,907
@@ -235,10 +219,26 @@ CA,16,916
 CA,16,923
 CA,16,928
 CA,16,932
-CA,17,San Bernadino
 CA,17,Riverside
+CA,17,San Bernadino
 CA,18,Orange
 CA,19,San Diego
+CA,2,Marin
+CA,2,Napa
+CA,2,Solano
+CA,2,Sonoma
+CA,3,El Dorado
+CA,3,Placer
+CA,3,Sacramento
+CA,3,Yolo
+CA,4,San Francisco
+CA,5,Contra Costa
+CA,6,Alameda
+CA,7,Santa Clara
+CA,8,San Mateo
+CA,9,Monterey
+CA,9,San Benito
+CA,9,Santa Cruz
 CO,1,Boulder 
 CO,2,El Paso
 CO,2,Teller
@@ -316,14 +316,6 @@ DE,1,Kent
 DE,1,New Castle
 DE,1,Sussex
 FL,1,Alachua
-FL,2,Baker
-FL,3,Bay
-FL,4,Bradford
-FL,5,Brevard
-FL,6,Broward
-FL,7,Calhoun
-FL,8,Charlotte
-FL,9,Citrus
 FL,10,Clay
 FL,11,Collier
 FL,12,Columbia
@@ -334,6 +326,7 @@ FL,16,Escambia
 FL,17,Flagler
 FL,18,Franklin
 FL,19,Gadsden
+FL,2,Baker
 FL,20,Gilchrist
 FL,21,Glades
 FL,22,Gulf
@@ -344,6 +337,7 @@ FL,26,Hernando
 FL,27,Highlands
 FL,28,Hillsborough
 FL,29,Holmes
+FL,3,Bay
 FL,30,Indian River
 FL,31,Jackson
 FL,32,Jefferson
@@ -354,6 +348,7 @@ FL,36,Leon
 FL,37,Levy
 FL,38,Liberty
 FL,39,Madison
+FL,4,Bradford
 FL,40,Manatee
 FL,41,Marion
 FL,42,Martin
@@ -364,6 +359,7 @@ FL,46,Okaloosa
 FL,47,Okeechobee
 FL,48,Orange
 FL,49,Osceola
+FL,5,Brevard
 FL,50,Palm Beach
 FL,51,Pasco
 FL,52,Pinellas
@@ -374,6 +370,7 @@ FL,56,Sarasota
 FL,57,Seminole
 FL,58,St. Johns
 FL,59,St. Lucie
+FL,6,Broward
 FL,60,Sumter
 FL,61,Suwannee
 FL,62,Taylor
@@ -382,6 +379,9 @@ FL,64,Volusia
 FL,65,Wakulla
 FL,66,Walton
 FL,67,Washington
+FL,7,Calhoun
+FL,8,Charlotte
+FL,9,Citrus
 GA,1,Baker
 GA,1,Calhoun
 GA,1,Clay
@@ -394,79 +394,6 @@ GA,1,Schley
 GA,1,Sumter
 GA,1,Terrell
 GA,1,Worth
-GA,2,Barrow
-GA,2,Clarke
-GA,2,Elbert
-GA,2,Greene
-GA,2,Jackson
-GA,2,Madison
-GA,2,Morgan
-GA,2,Oconee
-GA,2,Oglethorpe
-GA,3,Bartow
-GA,3,Butts
-GA,3,Cherokee
-GA,3,Clayton
-GA,3,Cobb
-GA,3,Coweta
-GA,3,DeKalb
-GA,3,Douglas
-GA,3,Fayette
-GA,3,Forsyth
-GA,3,Fulton
-GA,3,Gwinnett
-GA,3,Henry
-GA,3,Jasper
-GA,3,Lamar
-GA,3,Newton
-GA,3,Paulding
-GA,3,Pike
-GA,3,Rockdale
-GA,3,Spalding
-GA,3,Walton
-GA,4,Carroll
-GA,4,Heralson
-GA,4,Heard
-GA,5,Burke
-GA,5,Columbia
-GA,5,Emanuel
-GA,5,Glascock
-GA,5,Jefferson
-GA,5,Jenkins
-GA,5,Lincoln
-GA,5,McDuffie
-GA,5,Richmond
-GA,5,Taliaferro
-GA,5,Warren
-GA,5,Wilkes
-GA,6,Bacon
-GA,6,Brantley
-GA,6,Camden
-GA,6,Charlton
-GA,6,Glynn
-GA,6,McIntosh
-GA,6,Pierce
-GA,6,Ware
-GA,6,Wayne
-GA,7,Catoosa
-GA,7,Dade
-GA,7,Walker
-GA,8,Chattahoochee
-GA,8,Harris
-GA,8,Macon
-GA,8,Marion
-GA,8,Meriwether
-GA,8,Muscogee
-GA,8,Quitman
-GA,8,Stewart
-GA,8,Talbot
-GA,8,Taylor
-GA,8,Troup
-GA,8,Upson
-GA,8,Webster
-GA,9,Fannin
-GA,9,Murray
-GA,9,Whitfield
 GA,10,Banks
 GA,10,Dawson
 GA,10,Franklin
@@ -541,11 +468,84 @@ GA,16,Baldwin
 GA,16,Hancock
 GA,16,Washington
 GA,16,Wilkinson
-HI,1,Honolulu
+GA,2,Barrow
+GA,2,Clarke
+GA,2,Elbert
+GA,2,Greene
+GA,2,Jackson
+GA,2,Madison
+GA,2,Morgan
+GA,2,Oconee
+GA,2,Oglethorpe
+GA,3,Bartow
+GA,3,Butts
+GA,3,Cherokee
+GA,3,Clayton
+GA,3,Cobb
+GA,3,Coweta
+GA,3,DeKalb
+GA,3,Douglas
+GA,3,Fayette
+GA,3,Forsyth
+GA,3,Fulton
+GA,3,Gwinnett
+GA,3,Henry
+GA,3,Jasper
+GA,3,Lamar
+GA,3,Newton
+GA,3,Paulding
+GA,3,Pike
+GA,3,Rockdale
+GA,3,Spalding
+GA,3,Walton
+GA,4,Carroll
+GA,4,Heard
+GA,4,Heralson
+GA,5,Burke
+GA,5,Columbia
+GA,5,Emanuel
+GA,5,Glascock
+GA,5,Jefferson
+GA,5,Jenkins
+GA,5,Lincoln
+GA,5,McDuffie
+GA,5,Richmond
+GA,5,Taliaferro
+GA,5,Warren
+GA,5,Wilkes
+GA,6,Bacon
+GA,6,Brantley
+GA,6,Camden
+GA,6,Charlton
+GA,6,Glynn
+GA,6,McIntosh
+GA,6,Pierce
+GA,6,Ware
+GA,6,Wayne
+GA,7,Catoosa
+GA,7,Dade
+GA,7,Walker
+GA,8,Chattahoochee
+GA,8,Harris
+GA,8,Macon
+GA,8,Marion
+GA,8,Meriwether
+GA,8,Muscogee
+GA,8,Quitman
+GA,8,Stewart
+GA,8,Talbot
+GA,8,Taylor
+GA,8,Troup
+GA,8,Upson
+GA,8,Webster
+GA,9,Fannin
+GA,9,Murray
+GA,9,Whitfield
 HI,1,Hawaii
-HI,1,Maui
+HI,1,Honolulu
 HI,1,Kalawao
 HI,1,Kauai
+HI,1,Maui
 IA,1,Boone
 IA,1,Calhoun
 IA,1,Carroll
@@ -653,53 +653,6 @@ ID,5,836
 ID,6,837
 ID,7,838
 IL,1,Cook
-IL,2,Lake
-IL,2,McHenry
-IL,3,Dupage
-IL,3,Kane
-IL,4,Grundy
-IL,4,Kankakee
-IL,4,Kendall
-IL,4,Will
-IL,5,Boone
-IL,5,Carroll
-IL,5,DeKalb
-IL,5,Jo Daviess
-IL,5,Lee
-IL,5,Ogle
-IL,5,Stephenson
-IL,5,Winnebago
-IL,6,Bureau
-IL,6,Hancock
-IL,6,Henderson
-IL,6,Henry
-IL,6,Mercer
-IL,6,Rock Island
-IL,6,Warren
-IL,6,Whiteside
-IL,7,Knox
-IL,7,LaSalle
-IL,7,Marshall
-IL,7,McDonough
-IL,7,Peoria
-IL,7,Putnam
-IL,7,Stark
-IL,7,Tazewell
-IL,7,Woodford
-IL,7,Fulton
-IL,8,McLean
-IL,8,Livingston
-IL,8,DeWitt
-IL,9,Champaign
-IL,9,Coles
-IL,9,Douglas
-IL,9,Edgar
-IL,9,Piatt
-IL,9,Ford
-IL,9,Iroquois
-IL,9,Vermillion
-IL,9,Clark
-IL,9,Cumberland
 IL,10,Adams
 IL,10,Brown
 IL,10,Cass
@@ -754,9 +707,103 @@ IL,13,Wabash
 IL,13,Wayne
 IL,13,White
 IL,13,Williamson
-IN,1,Lake
+IL,2,Lake
+IL,2,McHenry
+IL,3,Dupage
+IL,3,Kane
+IL,4,Grundy
+IL,4,Kankakee
+IL,4,Kendall
+IL,4,Will
+IL,5,Boone
+IL,5,Carroll
+IL,5,DeKalb
+IL,5,Jo Daviess
+IL,5,Lee
+IL,5,Ogle
+IL,5,Stephenson
+IL,5,Winnebago
+IL,6,Bureau
+IL,6,Hancock
+IL,6,Henderson
+IL,6,Henry
+IL,6,Mercer
+IL,6,Rock Island
+IL,6,Warren
+IL,6,Whiteside
+IL,7,Fulton
+IL,7,Knox
+IL,7,LaSalle
+IL,7,Marshall
+IL,7,McDonough
+IL,7,Peoria
+IL,7,Putnam
+IL,7,Stark
+IL,7,Tazewell
+IL,7,Woodford
+IL,8,DeWitt
+IL,8,Livingston
+IL,8,McLean
+IL,9,Champaign
+IL,9,Clark
+IL,9,Coles
+IL,9,Cumberland
+IL,9,Douglas
+IL,9,Edgar
+IL,9,Ford
+IL,9,Iroquois
+IL,9,Piatt
+IL,9,Vermillion
 IN,1,LaPorte
+IN,1,Lake
 IN,1,Porter
+IN,10,Boone
+IN,10,Hamilton
+IN,10,Hendricks
+IN,10,Marlon
+IN,10,Morgan
+IN,10,Shelby
+IN,11,Fayette
+IN,11,Hancock
+IN,11,Henry
+IN,11,Madison
+IN,11,Union
+IN,11,Wayne
+IN,12,Bartholomew
+IN,12,Decatur
+IN,12,Jackson
+IN,12,Jennings
+IN,12,Rush
+IN,13,Brown
+IN,13,Johnson
+IN,13,Lawrence
+IN,13,Monroe
+IN,13,Owen
+IN,14,Dearborn
+IN,14,Franklin
+IN,14,Ohio
+IN,14,Ripley
+IN,14,Switzerland
+IN,15,Davless
+IN,15,Dubols
+IN,15,Greene
+IN,15,Knox
+IN,15,Martin
+IN,15,Orange
+IN,15,Perry
+IN,15,Pike
+IN,15,Spencer
+IN,16,Clark
+IN,16,Crawford
+IN,16,Floyd
+IN,16,Harrison
+IN,16,Jefferson
+IN,16,Scott
+IN,16,Washington
+IN,17,Gibson
+IN,17,Posey
+IN,17,Vanderburgh
+IN,17,Warrick
 IN,2,Elkhart
 IN,2,Kosclusko
 IN,2,Marshall
@@ -799,158 +846,111 @@ IN,9,Parke
 IN,9,Sullivan
 IN,9,Vermillion
 IN,9,Vigo
-IN,10,Boone
-IN,10,Hamilton
-IN,10,Marlon
-IN,10,Morgan
-IN,10,Shelby
-IN,10,Hendricks
-IN,11,Fayette
-IN,11,Hancock
-IN,11,Henry
-IN,11,Madison
-IN,11,Union
-IN,11,Wayne
-IN,12,Bartholomew
-IN,12,Decatur
-IN,12,Jackson
-IN,12,Jennings
-IN,12,Rush
-IN,13,Brown
-IN,13,Johnson
-IN,13,Lawrence
-IN,13,Monroe
-IN,13,Owen
-IN,14,Dearborn
-IN,14,Franklin
-IN,14,Ohio
-IN,14,Ripley
-IN,14,Switzerland
-IN,15,Davless
-IN,15,Dubols
-IN,15,Greene
-IN,15,Knox
-IN,15,Martin
-IN,15,Orange
-IN,15,Perry
-IN,15,Pike
-IN,15,Spencer
-IN,16,Clark
-IN,16,Crawford
-IN,16,Floyd
-IN,16,Harrison
-IN,16,Jefferson
-IN,16,Scott
-IN,16,Washington
-IN,17,Gibson
-IN,17,Posey
-IN,17,Warrick
-IN,17,Vanderburgh
-KS,1,Leavenworth
-KS,1,Wyandotte
 KS,1,Johnson
+KS,1,Leavenworth
 KS,1,Miami
-KS,2,Marshall
-KS,2,Nemaha
-KS,2,Brown
-KS,2,Doniphan
-KS,2,Pottawatomie
-KS,2,Jackson
+KS,1,Wyandotte
+KS,2,Anderson
 KS,2,Atchison
-KS,2,Wabaunsee
-KS,2,Shawnee
-KS,2,Jefferson
-KS,2,Lyon
-KS,2,Osage
+KS,2,Brown
+KS,2,Coffey
+KS,2,Doniphan
 KS,2,Douglas
 KS,2,Franklin
-KS,2,Coffey
-KS,2,Anderson
+KS,2,Jackson
+KS,2,Jefferson
 KS,2,Linn
-KS,3,Jewell
-KS,3,Republic
-KS,3,Washington
-KS,3,Mitchell
-KS,3,Cloud
+KS,2,Lyon
+KS,2,Marshall
+KS,2,Nemaha
+KS,2,Osage
+KS,2,Pottawatomie
+KS,2,Shawnee
+KS,2,Wabaunsee
 KS,3,Clay
-KS,3,Riley
-KS,3,Lincoln
-KS,3,Ottawa
-KS,3,Ellsworth
-KS,3,Saline
+KS,3,Cloud
 KS,3,Dickinson
+KS,3,Ellsworth
 KS,3,Geary
+KS,3,Jewell
+KS,3,Lincoln
+KS,3,Mitchell
 KS,3,Morris
-KS,4,Cheyenne
-KS,4,Rawlins
-KS,4,Decatur
-KS,4,Norton
-KS,4,Phillips
-KS,4,Smith
-KS,4,Sherman
-KS,4,Thomas
-KS,4,Sheridan
-KS,4,Graham
-KS,4,Rooks
-KS,4,Osborne
-KS,4,Wallace
-KS,4,Logan
-KS,4,Gove
-KS,4,Trego
-KS,4,Ellis
-KS,4,Russell
-KS,4,Greeley
-KS,4,Wichita
-KS,4,Scott
-KS,4,Lane
-KS,4,Ness
-KS,4,Rush
+KS,3,Ottawa
+KS,3,Republic
+KS,3,Riley
+KS,3,Saline
+KS,3,Washington
 KS,4,Barton
-KS,5,Hamilton
-KS,5,Kearny
-KS,5,Finney
-KS,5,Hodgeman
-KS,5,Pawnee
-KS,5,Stafford
-KS,5,Stanton
-KS,5,Grant
-KS,5,Haskell
-KS,5,Gray
-KS,5,Ford
-KS,5,Edwards
-KS,5,Kiowa
-KS,5,Pratt
-KS,5,Morton
-KS,5,Stevens
-KS,5,Seward
-KS,5,Meade
+KS,4,Cheyenne
+KS,4,Decatur
+KS,4,Ellis
+KS,4,Gove
+KS,4,Graham
+KS,4,Greeley
+KS,4,Lane
+KS,4,Logan
+KS,4,Ness
+KS,4,Norton
+KS,4,Osborne
+KS,4,Phillips
+KS,4,Rawlins
+KS,4,Rooks
+KS,4,Rush
+KS,4,Russell
+KS,4,Scott
+KS,4,Sheridan
+KS,4,Sherman
+KS,4,Smith
+KS,4,Thomas
+KS,4,Trego
+KS,4,Wallace
+KS,4,Wichita
+KS,5,Barber
 KS,5,Clark
 KS,5,Comanche
-KS,5,Barber
-KS,6,Rice
-KS,6,Reno
-KS,6,Kingman
+KS,5,Edwards
+KS,5,Finney
+KS,5,Ford
+KS,5,Grant
+KS,5,Gray
+KS,5,Hamilton
+KS,5,Haskell
+KS,5,Hodgeman
+KS,5,Kearny
+KS,5,Kiowa
+KS,5,Meade
+KS,5,Morton
+KS,5,Pawnee
+KS,5,Pratt
+KS,5,Seward
+KS,5,Stafford
+KS,5,Stanton
+KS,5,Stevens
+KS,6,Butler
+KS,6,Chase
+KS,6,Chautaugua
+KS,6,Cowley
+KS,6,Elk
+KS,6,Greenwood
 KS,6,Harper
-KS,6,McPherson
 KS,6,Harvey
+KS,6,Kingman
+KS,6,Marion
+KS,6,McPherson
+KS,6,Montgomery
+KS,6,Reno
+KS,6,Rice
 KS,6,Sedgwick
 KS,6,Sumner
-KS,6,Marion
-KS,6,Butler
-KS,6,Cowley
-KS,6,Chase
-KS,6,Greenwood
-KS,6,Elk
-KS,6,Chautaugua
 KS,6,Wilson
-KS,6,Montgomery
-KS,7,Woodson
 KS,7,Allen
-KS,7,Neosho
-KS,7,Labette
 KS,7,Bourbon
-KS,7,Crawford
 KS,7,Cherokee
+KS,7,Crawford
+KS,7,Labette
+KS,7,Neosho
+KS,7,Woodson
 KY,1,Ballard
 KY,1,Caldwell
 KY,1,Calloway
@@ -971,8 +971,8 @@ KY,2,Hopkins
 KY,2,McLean
 KY,2,Muhlenberg
 KY,2,Ohio
-KY,2,Trigg
 KY,2,Todd
+KY,2,Trigg
 KY,2,Union
 KY,2,Webster
 KY,3,Breckinridge
@@ -1071,70 +1071,70 @@ KY,8,Perry
 KY,8,Pike
 KY,8,Whitley
 KY,8,Wolfe
-LA,1,Orleans Parish
-LA,1,St. Bernard Parish
-LA,1,Plaquemines Parish
 LA,1,Jefferson Parish
+LA,1,Orleans Parish
+LA,1,Plaquemines Parish
+LA,1,St. Bernard Parish
 LA,1,St. Charles Parish
-LA,1,St. John the Baptist Parish
 LA,1,St. James Parish
+LA,1,St. John the Baptist Parish
 LA,1,St. Tammany Parish
+LA,2,Assumption Parish
 LA,2,Lafourche Parish
 LA,2,Terrebonne Parish
-LA,2,Assumption Parish
+LA,3,Acadia Parish
+LA,3,Evangeline Parish
+LA,3,Iberia Parish
 LA,3,Lafayette Parish
+LA,3,St. Landry Parish
 LA,3,St. Martin Parish
 LA,3,St. Mary Parish
-LA,3,Iberia Parish
 LA,3,Vermillion Parish
-LA,3,Acadia Parish
-LA,3,St. Landry Parish
-LA,3,Evangeline Parish
-LA,4,Cameron Parish
-LA,4,Jefferson Davis Parish
-LA,4,Calcasieu Parish
 LA,4,Allen Parish
 LA,4,Beauregard Parish
-LA,5,East Baton Rouge Parish
-LA,5,West Baton Rouge Parish
-LA,5,Iberville Parish
-LA,5,Pointe Coupee Parish
-LA,5,West Feliciana Parish
-LA,5,East Feliciana Parish
+LA,4,Calcasieu Parish
+LA,4,Cameron Parish
+LA,4,Jefferson Davis Parish
 LA,5,Ascension Parish
+LA,5,East Baton Rouge Parish
+LA,5,East Feliciana Parish
+LA,5,Iberville Parish
 LA,5,Livingston Parish
+LA,5,Pointe Coupee Parish
 LA,5,St. Helena Parish
 LA,5,Tangipahoa Parish
 LA,5,Washington Parish
+LA,5,West Baton Rouge Parish
+LA,5,West Feliciana Parish
+LA,6,Avoyelles Parish
+LA,6,Catahoula Parish
+LA,6,Concordia Parish
+LA,6,Grant Parish
+LA,6,La Salle Parish
 LA,6,Rapides Parish
 LA,6,Vernon Parish
-LA,6,Avoyelles Parish
-LA,6,Concordia Parish
-LA,6,Catahoula Parish
-LA,6,La Salle Parish
-LA,6,Grant Parish
 LA,6,Winn Parish
-LA,7,Ouachita Parish
-LA,7,East Carroll Parish
-LA,7,West Carroll Parish
-LA,7,Madison Parish
-LA,7,Tensas Parish
-LA,7,Franklin Parish
-LA,7,Richland Parish
-LA,7,Morehouse Parish
 LA,7,Caldwell Parish
+LA,7,East Carroll Parish
+LA,7,Franklin Parish
 LA,7,Jackson Parish
 LA,7,Lincoln Parish
+LA,7,Madison Parish
+LA,7,Morehouse Parish
+LA,7,Ouachita Parish
+LA,7,Richland Parish
+LA,7,Tensas Parish
 LA,7,Union Parish
+LA,7,West Carroll Parish
+LA,8,Bienville Parish
 LA,8,Bossier Parish
 LA,8,Caddo Parish
-LA,8,Webster Parish
 LA,8,Claiborne Parish
-LA,8,Bienville Parish
-LA,8,Red River Parish
 LA,8,De Soto Parish
 LA,8,Natchitoches Parish
+LA,8,Red River Parish
 LA,8,Sabine Parish
+LA,8,Webster Parish
 MA,1,010
 MA,1,011
 MA,1,012
@@ -1153,73 +1153,48 @@ MA,6,023
 MA,6,027
 MA,7,025
 MA,7,026
+MD,1,Anne Arundel County
 MD,1,Baltimore City
 MD,1,Baltimore County
 MD,1,Harford County
 MD,1,Howard County
-MD,1,Anne Arundel County
-MD,2,St. Mary's County
-MD,2,Charles County
 MD,2,Calvert County
+MD,2,Caroline County
 MD,2,Cecil County
+MD,2,Charles County
+MD,2,Dorchester County
 MD,2,Kent County
 MD,2,Queen Anne's County
-MD,2,Talbot County
-MD,2,Caroline County
-MD,2,Dorchester County
-MD,2,Wicomico County
 MD,2,Somerset County
+MD,2,St. Mary's County
+MD,2,Talbot County
+MD,2,Wicomico County
 MD,2,Worcester County
 MD,3,Montgomery County
 MD,3,Prince George's
-MD,4,Garrett County
 MD,4,Allegany County
-MD,4,Washington County
 MD,4,Carroll County
 MD,4,Frederick County
+MD,4,Garrett County
+MD,4,Washington County
 ME,1,Cumberland
 ME,1,Sagadahoc
 ME,1,York
-ME,2,Knox
 ME,2,Kennebec
+ME,2,Knox
 ME,2,Lincoln
 ME,2,Oxford
-ME,3,Androscoggin
-ME,3,Waldo
-ME,3,Franklin
-ME,3,Penobscot
-ME,3,Somerset
-ME,3,Piscataquis
-ME,4,Hancock
+ME,3N,Penobscot
+ME,3N,Piscataquis
+ME,3N,Somerset
+ME,3S,Androscoggin
+ME,3S,Franklin
+ME,3S,Waldo
 ME,4,Aroostook
+ME,4,Hancock
 ME,4,Washington
 MI,1,Monroe
 MI,1,Wayne
-MI,2,Macomb
-MI,2,Oakland
-MI,3,St. Clair
-MI,4,Lenawee
-MI,4,Washtenaw
-MI,4,Livingston
-MI,5,Lapeer
-MI,5,Genesee
-MI,5,Shiawassee
-MI,6,Huron
-MI,6,Sanilac
-MI,6,Tuscola
-MI,7,Clinton
-MI,7,Eaton
-MI,7,Hillsdale
-MI,7,Ingham
-MI,7,Jackson
-MI,8,Arenac
-MI,8,Gratiot
-MI,8,Saginaw
-MI,8,Bay
-MI,9,Berrien
-MI,9,St. Joseph
-MI,9,Cass
-MI,9,Van Buren
 MI,10,Branch
 MI,10,Calhoun
 MI,10,Kalamazoo
@@ -1236,8 +1211,8 @@ MI,12,Newaygo
 MI,12,Oceana
 MI,12,Osceola
 MI,12,Ottawa
-MI,13,Gladwin
 MI,13,Clare
+MI,13,Gladwin
 MI,13,Isabella
 MI,13,Midland
 MI,14,Antrim
@@ -1245,11 +1220,11 @@ MI,14,Benzie
 MI,14,Charlevoix
 MI,14,Emmet
 MI,14,Grand Traverse
-MI,14,Manistee
 MI,14,Kalkaska
+MI,14,Leelanau
+MI,14,Manistee
 MI,14,Missaukee
 MI,14,Wexford
-MI,14,Leelanau
 MI,15,Alcona
 MI,15,Alpena
 MI,15,Cheboygan
@@ -1276,6 +1251,31 @@ MI,16,Marquette
 MI,16,Menominee
 MI,16,Ontonagon
 MI,16,Schoolcraft
+MI,2,Macomb
+MI,2,Oakland
+MI,3,St. Clair
+MI,4,Lenawee
+MI,4,Livingston
+MI,4,Washtenaw
+MI,5,Genesee
+MI,5,Lapeer
+MI,5,Shiawassee
+MI,6,Huron
+MI,6,Sanilac
+MI,6,Tuscola
+MI,7,Clinton
+MI,7,Eaton
+MI,7,Hillsdale
+MI,7,Ingham
+MI,7,Jackson
+MI,8,Arenac
+MI,8,Bay
+MI,8,Gratiot
+MI,8,Saginaw
+MI,9,Berrien
+MI,9,Cass
+MI,9,St. Joseph
+MI,9,Van Buren
 MN,1,Dodge
 MN,1,Fillmore
 MN,1,Freeborn
@@ -1295,11 +1295,11 @@ MN,2,Lake of the Woods
 MN,2,St. Louis
 MN,3,Blue Earth
 MN,3,Faribault
-MN,3,Waseca
 MN,3,Le Sueur
 MN,3,Martin
 MN,3,Nicollet
 MN,3,Rice
+MN,3,Waseca
 MN,3,Watonwan
 MN,4,Brown
 MN,4,Cottonwood
@@ -1310,8 +1310,8 @@ MN,4,Nobles
 MN,4,Pipestone
 MN,4,Redwood
 MN,4,Rock
-MN,5,Chippewa
 MN,5,Big Stone
+MN,5,Chippewa
 MN,5,Kandiyohi
 MN,5,Lac Qui Parle
 MN,5,Lyon
@@ -1363,148 +1363,148 @@ MN,9,Norman
 MN,9,Pennington
 MN,9,Polk
 MN,9,Red Lake
-MO,1,Atchison
-MO,1,Nodaway
-MO,1,Holt
 MO,1,Andrew
+MO,1,Atchison
 MO,1,Buchanan
-MO,1,Worth
-MO,1,Gentry
-MO,1,DeKalb
-MO,1,Clinton
-MO,1,Harrison
-MO,1,Daviess
 MO,1,Caldwell
-MO,1,Ray
-MO,1,Mercer
-MO,1,Grundy
-MO,1,Livingston
 MO,1,Carroll
-MO,2,Putnam
-MO,2,Sullivan
-MO,2,Linn
-MO,2,Schuyler
-MO,2,Adair
-MO,2,Macon
-MO,2,Scotland
-MO,2,Knox
-MO,2,Shelby
-MO,2,Clark
-MO,2,Lewis
-MO,2,Marion
-MO,2,Ralls
-MO,2,Pike
-MO,3,Platte
-MO,3,Clay
-MO,3,Jackson
-MO,3,Cass
-MO,4,Bates
-MO,4,Vernon
-MO,4,Lafayette
-MO,4,Johnson
-MO,4,Henry
-MO,4,St. Clair
-MO,4,Saline
-MO,4,Pettis
-MO,4,Benton
-MO,5,Chariton
-MO,5,Randolph
-MO,5,Monroe
-MO,5,Howard
-MO,5,Boone
-MO,5,Audrain
-MO,5,Cooper
-MO,5,Morgan
-MO,5,Camden
-MO,5,Moniteau
-MO,5,Cole
-MO,5,Miller
-MO,5,Callaway
-MO,5,Osage
-MO,5,Maries
-MO,5,Montgomery
-MO,5,Gasconade
-MO,6,Lincoln
-MO,6,Warren
-MO,6,St. Charles
-MO,6,St. Louis
-MO,6,St. Louis City
-MO,6,Franklin
-MO,6,Jefferson
-MO,6,Washington
-MO,6,St. Francois
-MO,6,Ste. Genevieve
-MO,7,Barton
-MO,7,Jasper
-MO,7,Newton
-MO,7,McDonald
-MO,8,Cedar
-MO,8,Dade
-MO,8,Lawrence
-MO,8,Barry
-MO,8,Hickory
-MO,8,Polk
-MO,8,Greene
-MO,8,Christian
-MO,8,Stone
-MO,8,Taney
-MO,8,Dallas
-MO,8,Laclede
-MO,8,Webster
-MO,8,Wright
-MO,8,Douglas
-MO,8,Ozark
-MO,9,Pulaski
-MO,9,Phelps
-MO,9,Crawford
-MO,9,Texas
-MO,9,Dent
-MO,9,Reynolds
-MO,9,Iron
-MO,9,Shannon
-MO,9,Carter
-MO,9,Howell
-MO,9,Oregon
-MO,9,Ripley
-MO,10,Perry
-MO,10,Madison
+MO,1,Clinton
+MO,1,Daviess
+MO,1,DeKalb
+MO,1,Gentry
+MO,1,Grundy
+MO,1,Harrison
+MO,1,Holt
+MO,1,Livingston
+MO,1,Mercer
+MO,1,Nodaway
+MO,1,Ray
+MO,1,Worth
 MO,10,Bollinger
-MO,10,Cape Girardeau
-MO,10,Wayne
 MO,10,Butler
-MO,10,Stoddard
-MO,10,Scott
+MO,10,Cape Girardeau
+MO,10,Dunklin
+MO,10,Madison
 MO,10,Mississippi
 MO,10,New Madrid
 MO,10,Pemiscot
-MO,10,Dunklin
-MS,1,Tunica
-MS,1,Tate
-MS,1,Marshall
+MO,10,Perry
+MO,10,Scott
+MO,10,Stoddard
+MO,10,Wayne
+MO,2,Adair
+MO,2,Clark
+MO,2,Knox
+MO,2,Lewis
+MO,2,Linn
+MO,2,Macon
+MO,2,Marion
+MO,2,Pike
+MO,2,Putnam
+MO,2,Ralls
+MO,2,Schuyler
+MO,2,Scotland
+MO,2,Shelby
+MO,2,Sullivan
+MO,3,Cass
+MO,3,Clay
+MO,3,Jackson
+MO,3,Platte
+MO,4,Bates
+MO,4,Benton
+MO,4,Henry
+MO,4,Johnson
+MO,4,Lafayette
+MO,4,Pettis
+MO,4,Saline
+MO,4,St. Clair
+MO,4,Vernon
+MO,5,Audrain
+MO,5,Boone
+MO,5,Callaway
+MO,5,Camden
+MO,5,Chariton
+MO,5,Cole
+MO,5,Cooper
+MO,5,Gasconade
+MO,5,Howard
+MO,5,Maries
+MO,5,Miller
+MO,5,Moniteau
+MO,5,Monroe
+MO,5,Montgomery
+MO,5,Morgan
+MO,5,Osage
+MO,5,Randolph
+MO,6,Franklin
+MO,6,Jefferson
+MO,6,Lincoln
+MO,6,St. Charles
+MO,6,St. Francois
+MO,6,St. Louis
+MO,6,St. Louis City
+MO,6,Ste. Genevieve
+MO,6,Warren
+MO,6,Washington
+MO,7,Barton
+MO,7,Jasper
+MO,7,McDonald
+MO,7,Newton
+MO,8,Barry
+MO,8,Cedar
+MO,8,Christian
+MO,8,Dade
+MO,8,Dallas
+MO,8,Douglas
+MO,8,Greene
+MO,8,Hickory
+MO,8,Laclede
+MO,8,Lawrence
+MO,8,Ozark
+MO,8,Polk
+MO,8,Stone
+MO,8,Taney
+MO,8,Webster
+MO,8,Wright
+MO,9,Carter
+MO,9,Crawford
+MO,9,Dent
+MO,9,Howell
+MO,9,Iron
+MO,9,Oregon
+MO,9,Phelps
+MO,9,Pulaski
+MO,9,Reynolds
+MO,9,Ripley
+MO,9,Shannon
+MO,9,Texas
 MS,1,DeSoto
+MS,1,Marshall
+MS,1,Tate
+MS,1,Tunica
 MS,2,Benton
+MS,2,Itawamba
+MS,2,Lee
+MS,2,Pontotoc
 MS,2,Tippah
 MS,2,Union
-MS,2,Pontotoc
-MS,2,Lee
-MS,2,Itawamba
-MS,3,Warren
-MS,3,Madison
-MS,3,Hinds
-MS,3,Rankin
 MS,3,Copiah
+MS,3,Hinds
+MS,3,Madison
+MS,3,Rankin
 MS,3,Simpson
-MS,4,Lamar
+MS,3,Warren
 MS,4,Forrest
-MS,4,Perry
 MS,4,Greene
-MS,4,Pearl River
 MS,4,Jones
-MS,5,Stone
+MS,4,Lamar
+MS,4,Pearl River
+MS,4,Perry
 MS,5,George
 MS,5,Hancock
 MS,5,Harrison
 MS,5,Jackson
+MS,5,Stone
 MS,6,Adams
 MS,6,Alcorn
 MS,6,Amite
@@ -1560,21 +1560,21 @@ MS,6,Wilkinson
 MS,6,Winston
 MS,6,Yalobusha
 MS,6,Yazoo
-MT,1,Musselshell
-MT,1,Yellowstone
 MT,1,Carbon
+MT,1,Musselshell
 MT,1,Stillwater
 MT,1,Sweet Grass
-MT,2,Chouteau
-MT,2,Teton
-MT,2,Lewis and Clark
+MT,1,Yellowstone
 MT,2,Broadwater
-MT,2,Jefferson
-MT,2,Deer Lodge
-MT,2,Silver Bow
-MT,2,Gallatin
 MT,2,Cascade
+MT,2,Chouteau
+MT,2,Deer Lodge
+MT,2,Gallatin
+MT,2,Jefferson
 MT,2,Judith Basin
+MT,2,Lewis and Clark
+MT,2,Silver Bow
+MT,2,Teton
 MT,3,Flathead
 MT,3,Lake
 MT,3,Missoula
@@ -1624,20 +1624,66 @@ NC,1,Graham
 NC,1,Haywood
 NC,1,Henderson
 NC,1,Jackson
-NC,1,McDowell
 NC,1,Macon
 NC,1,Madison
+NC,1,McDowell
 NC,1,Mitchell
 NC,1,Polk
 NC,1,Rutherford
 NC,1,Swain
 NC,1,Transylvania
 NC,1,Yancey
+NC,10,Granville
+NC,10,Vance
+NC,10,Warren
+NC,11,Alamance
+NC,11,Caswell
+NC,11,Chatham
+NC,11,Durham
+NC,11,Lee
+NC,11,Orange
+NC,11,Person
+NC,12,Bertie
+NC,12,Camden
+NC,12,Chowan
+NC,12,Currituck
+NC,12,Gates
+NC,12,Halifax
+NC,12,Hertford
+NC,12,Martin
+NC,12,Northampton
+NC,12,Pasquotank
+NC,12,Perquimans
+NC,13,Franklin
+NC,13,Johnston
+NC,13,Wake
+NC,14,Edgecombe
+NC,14,Greene
+NC,14,Nash
+NC,14,Pitt
+NC,14,Wayne
+NC,14,Wilson
+NC,15,Brunswick
+NC,15,Columbus
+NC,15,Duplin
+NC,15,New Hanover
+NC,15,Onslow
+NC,15,Pender
+NC,16,Beaufort
+NC,16,Carteret
+NC,16,Craven
+NC,16,Dare
+NC,16,Hyde
+NC,16,Jones
+NC,16,Lenoir
+NC,16,Pamlico
+NC,16,Tyrrell
+NC,16,Washington
 NC,2,Alexander
 NC,2,Burke
 NC,2,Caldwell
-NC,2,Iredell
 NC,2,Catawba
+NC,2,Iredell
 NC,3,Alleghany
 NC,3,Ashe
 NC,3,Watauga
@@ -1670,52 +1716,6 @@ NC,9,Richmond
 NC,9,Robeson
 NC,9,Sampson
 NC,9,Scotland
-NC,10,Granville
-NC,10,Vance
-NC,10,Warren
-NC,11,Alamance
-NC,11,Caswell
-NC,11,Chatham
-NC,11,Durham
-NC,11,Lee
-NC,11,Orange
-NC,11,Person
-NC,12,Bertie
-NC,12,Camden
-NC,12,Chowan
-NC,12,Currituck
-NC,12,Gates
-NC,12,Halifax
-NC,12,Hertford
-NC,12,Martin
-NC,12,Northampton
-NC,12,Pasquotank
-NC,12,Perquimans
-NC,13,Franklin
-NC,13,Johnston
-NC,13,Wake
-NC,14,Edgecombe
-NC,14,Greene
-NC,14,Nash
-NC,14,Pitt
-NC,14,Wilson
-NC,14,Wayne
-NC,15,Brunswick
-NC,15,Columbus
-NC,15,Duplin
-NC,15,New Hanover
-NC,15,Onslow
-NC,15,Pender
-NC,16,Beaufort
-NC,16,Carteret
-NC,16,Craven
-NC,16,Dare
-NC,16,Hyde
-NC,16,Jones
-NC,16,Pamlico
-NC,16,Tyrrell
-NC,16,Washington
-NC,16,Lenoir
 ND,1,Burleigh
 ND,1,Morton
 ND,2,Cass
@@ -1782,37 +1782,37 @@ NE,4,690
 NE,4,691
 NE,4,692
 NE,4,693
-NH,1,Rockingham
-NH,1,Strafford
-NH,1,Hillsborough
 NH,1,Belknap
 NH,1,Carroll
 NH,1,Cheshire
 NH,1,Coos
 NH,1,Grafton
+NH,1,Hillsborough
 NH,1,Merrimack
+NH,1,Rockingham
+NH,1,Strafford
 NH,1,Sullivan
-NJ,1,Warren
 NJ,1,Atlantic
 NJ,1,Bergen
+NJ,1,Burlington
+NJ,1,Camden
+NJ,1,Cape May
+NJ,1,Cumberland
 NJ,1,Essex
+NJ,1,Gloucester
 NJ,1,Hudson
 NJ,1,Hunterdon
+NJ,1,Mercer
 NJ,1,Middlesex
 NJ,1,Monmouth
 NJ,1,Morris
 NJ,1,Ocean
 NJ,1,Passaic
+NJ,1,Salem
 NJ,1,Somerset
 NJ,1,Sussex
 NJ,1,Union
-NJ,1,Cape May
-NJ,1,Burlington
-NJ,1,Camden
-NJ,1,Gloucester
-NJ,1,Salem
-NJ,1,Mercer
-NJ,1,Cumberland
+NJ,1,Warren
 NM,1,Bernalillo
 NM,1,Sandoval
 NM,1,Torrance
@@ -1846,34 +1846,34 @@ NM,5,Sierra
 NM,5,Socorro
 NM,5,Taos
 NM,5,Union
-NV,1,Nye
 NV,1,Clark
+NV,1,Nye
 NV,2,Washoe
 NV,3,Carson City
 NV,3,Douglas
 NV,3,Lyon
 NV,3,Storey
+NV,4,Churchill
+NV,4,Elko
 NV,4,Esmeralda
 NV,4,Eureka
 NV,4,Humboldt
 NV,4,Lander
 NV,4,Lincoln
-NV,4,Elko
 NV,4,Mineral
 NV,4,Pershing
 NV,4,White Pine
-NV,4,Churchill
 NY,1,Albany
-NY,1,Rensselaer
-NY,1,Saratoga
-NY,1,Schenectady
 NY,1,Columbia
 NY,1,Fulton
 NY,1,Greene
 NY,1,Montgomery
+NY,1,Rensselaer
+NY,1,Saratoga
+NY,1,Schenectady
+NY,1,Schoharie
 NY,1,Warren
 NY,1,Washington
-NY,1,Schoharie
 NY,2,Allegany
 NY,2,Cattaraugus
 NY,2,Chautauqua
@@ -1888,12 +1888,12 @@ NY,3,Orange
 NY,3,Putnam
 NY,3,Sullivan
 NY,3,Ulster
+NY,4,Bronx
+NY,4,Kings
+NY,4,New York
 NY,4,Queens
 NY,4,Richmond
 NY,4,Rockland
-NY,4,New York
-NY,4,Kings
-NY,4,Bronx
 NY,4,Westchester
 NY,5,Livingston
 NY,5,Monroe
@@ -1901,20 +1901,20 @@ NY,5,Ontario
 NY,5,Seneca
 NY,5,Wayne
 NY,5,Yates
-NY,6,Onondaga
 NY,6,Broome
+NY,6,Cayuga
 NY,6,Chemung
 NY,6,Cortland
+NY,6,Onondaga
 NY,6,Schuyler
-NY,6,Tioga
-NY,6,Cayuga
 NY,6,Steuben
+NY,6,Tioga
 NY,6,Tompkins
 NY,7,Chenango
 NY,7,Clinton
-NY,7,Hamilton
 NY,7,Essex
 NY,7,Franklin
+NY,7,Hamilton
 NY,7,Herkimer
 NY,7,Jefferson
 NY,7,Lewis
@@ -1925,94 +1925,94 @@ NY,7,Otsego
 NY,7,St. Lawrence
 NY,8,Nassau
 NY,8,Suffolk
-OH,1,Williams
-OH,1,Fulton
-OH,1,Lucas
 OH,1,Defiance
+OH,1,Fulton
 OH,1,Henry
+OH,1,Lucas
+OH,1,Williams
 OH,1,Wood
-OH,2,Paulding
-OH,2,Putnam
-OH,2,Hancock
-OH,2,Van Wert
+OH,10,Galia
+OH,10,Jackson
+OH,10,Lawrence
+OH,10,Pike
+OH,10,Ross
+OH,10,Scioto
+OH,10,Vinton
+OH,11,Ashtabula
+OH,11,Cuyahoga
+OH,11,Geauga
+OH,11,Lake
+OH,11,Lorain
+OH,12,Ashland
+OH,12,Medina
+OH,12,Portage
+OH,12,Summit
+OH,13,Columbiana
+OH,13,Mahoning
+OH,13,Trumbull
+OH,14,Holmes
+OH,14,Wayne
+OH,15,Carroll
+OH,15,Stark
+OH,16,Belmont
+OH,16,Coshocton
+OH,16,Guernsey
+OH,16,Harrison
+OH,16,Jefferson
+OH,16,Monroe
+OH,16,Morgan
+OH,16,Muskingum
+OH,16,Noble
+OH,16,Perry
+OH,16,Tuscarawas
+OH,17,Athens
+OH,17,Hocking
+OH,17,Meigs
+OH,17,Washington
 OH,2,Allen
+OH,2,Auglaize
+OH,2,Hancock
 OH,2,Hardin
 OH,2,Mercer
-OH,2,Auglaize
-OH,3,Darke
-OH,3,Shelby
-OH,3,Miami
+OH,2,Paulding
+OH,2,Putnam
+OH,2,Van Wert
 OH,3,Champaign
 OH,3,Clark
-OH,3,Preble
-OH,3,Montgomery
+OH,3,Darke
 OH,3,Greene
+OH,3,Miami
+OH,3,Montgomery
+OH,3,Preble
+OH,3,Shelby
 OH,4,Butler
-OH,4,Warren
 OH,4,Hamilton
+OH,4,Warren
+OH,5,Adams
+OH,5,Brown
+OH,5,Clermont
 OH,5,Clinton
 OH,5,Highland
-OH,5,Clermont
-OH,5,Brown
-OH,5,Adams
+OH,6,Erie
+OH,6,Huron
 OH,6,Ottawa
 OH,6,Sandusky
-OH,6,Erie
 OH,6,Seneca
-OH,6,Huron
 OH,6,Wyandot
 OH,7,Crawford
 OH,7,Richland
 OH,8,Marion
 OH,8,Morrow
-OH,9,Logan
-OH,9,Union
 OH,9,Delaware
+OH,9,Fairfield
+OH,9,Fayette
+OH,9,Franklin
 OH,9,Knox
 OH,9,Licking
-OH,9,Franklin
+OH,9,Logan
 OH,9,Madison
-OH,9,Fairfield
 OH,9,Pickaway
-OH,9,Fayette
-OH,10,Ross
-OH,10,Vinton
-OH,10,Pike
-OH,10,Jackson
-OH,10,Scioto
-OH,10,Lawrence
-OH,10,Galia
-OH,11,Lorain
-OH,11,Cuyahoga
-OH,11,Lake
-OH,11,Geauga
-OH,11,Ashtabula
-OH,12,Ashland
-OH,12,Medina
-OH,12,Summit
-OH,12,Portage
-OH,13,Trumbull
-OH,13,Mahoning
-OH,13,Columbiana
-OH,14,Wayne
-OH,14,Holmes
-OH,15,Stark
-OH,15,Carroll
-OH,16,Coshocton
-OH,16,Tuscarawas
-OH,16,Harrison
-OH,16,Jefferson
-OH,16,Muskingum
-OH,16,Guernsey
-OH,16,Belmont
-OH,16,Perry
-OH,16,Morgan
-OH,16,Noble
-OH,16,Monroe
-OH,17,Hocking
-OH,17,Athens
-OH,17,Washington
-OH,17,Meigs
+OH,9,Union
 OK,1,Le Flore
 OK,1,Sequoyah
 OK,2,Comanche
@@ -2126,87 +2126,79 @@ OR,6,Wheeler
 OR,7,Douglas
 OR,7,Jackson
 OR,7,Josephine
-PA,1,Erie
+PA,1,Clarion
 PA,1,Crawford
+PA,1,Erie
+PA,1,Forest
+PA,1,McKean
 PA,1,Mercer
 PA,1,Venango
-PA,1,Clarion
-PA,1,Forest
 PA,1,Warren
-PA,1,McKean
-PA,2,Elk
 PA,2,Cameron
+PA,2,Elk
 PA,2,Potter
-PA,3,Tioga
-PA,3,Clinton
-PA,3,Lycoming
-PA,3,Sullivan
 PA,3,Bradford
-PA,3,Susquehanna
-PA,3,Wyoming
-PA,3,Lackawanna
-PA,3,Wayne
-PA,3,Pike
-PA,3,Monroe
 PA,3,Carbon
+PA,3,Clinton
+PA,3,Lackawanna
 PA,3,Luzerne
-PA,4,Lawrence
-PA,4,Beaver
-PA,4,Washington
-PA,4,Greene
-PA,4,Butler
+PA,3,Lycoming
+PA,3,Monroe
+PA,3,Pike
+PA,3,Sullivan
+PA,3,Susquehanna
+PA,3,Tioga
+PA,3,Wayne
+PA,3,Wyoming
 PA,4,Allegheny
-PA,4,Westmoreland
 PA,4,Armstrong
-PA,4,Indiana
+PA,4,Beaver
+PA,4,Butler
 PA,4,Fayette
-PA,5,Jefferson
-PA,5,Clearfield
-PA,5,Cambria
-PA,5,Somerset
+PA,4,Greene
+PA,4,Indiana
+PA,4,Lawrence
+PA,4,Washington
+PA,4,Westmoreland
 PA,5,Bedford
 PA,5,Blair
+PA,5,Cambria
+PA,5,Clearfield
 PA,5,Huntingdon
+PA,5,Jefferson
+PA,5,Somerset
 PA,6,Centre
-PA,6,Mifflin
-PA,6,Union
-PA,6,Snyder
-PA,6,Montour
-PA,6,Northumberland
 PA,6,Columbia
-PA,6,Schuylkill
 PA,6,Lehigh
+PA,6,Mifflin
+PA,6,Montour
 PA,6,Northampton
+PA,6,Northumberland
+PA,6,Schuylkill
+PA,6,Snyder
+PA,6,Union
 PA,7,Adams
-PA,7,York
-PA,7,Lancaster
 PA,7,Berks
+PA,7,Lancaster
+PA,7,York
+PA,8,Bucks
 PA,8,Chester
 PA,8,Delaware
 PA,8,Montgomery
-PA,8,Bucks
 PA,8,Philadelphia
-PA,9,Fulton
-PA,9,Franklin
 PA,9,Cumberland
-PA,9,Perry
-PA,9,Juniata
 PA,9,Dauphin
+PA,9,Franklin
+PA,9,Fulton
+PA,9,Juniata
 PA,9,Lebanon
+PA,9,Perry
 RI,1,Bristol
 RI,1,Kent
 RI,1,Newport
 RI,1,Providence
 RI,1,Washington
 SC,1,Abbeville
-SC,2,Aiken
-SC,3,Allendale
-SC,4,Anderson
-SC,5,Bamberg
-SC,6,Barnwell
-SC,7,Beaufort
-SC,8,Berkeley
-SC,9,Calhoun
 SC,10,Charleston
 SC,11,Cherokee
 SC,12,Chester
@@ -2217,6 +2209,7 @@ SC,16,Darlington
 SC,17,Dillon
 SC,18,Dorchester
 SC,19,Edgefield
+SC,2,Aiken
 SC,20,Fairfield
 SC,21,Florence
 SC,22,Georgetown
@@ -2227,6 +2220,7 @@ SC,26,Horry
 SC,27,Jasper
 SC,28,Kershaw
 SC,29,Lancaster
+SC,3,Allendale
 SC,30,Laurens
 SC,31,Lee
 SC,32,Lexington
@@ -2237,6 +2231,7 @@ SC,36,Newberry
 SC,37,Oconee
 SC,38,Orangeburg
 SC,39,Pickens
+SC,4,Anderson
 SC,40,Richland
 SC,41,Saluda
 SC,42,Spartanburg
@@ -2244,71 +2239,76 @@ SC,43,Sumter
 SC,44,Union
 SC,45,Williamsburg
 SC,46,York
-SD,1,Harding
-SD,1,Butte
-SD,1,Perkins
-SD,1,Corson
-SD,1,Dewey
-SD,1,Ziebach
-SD,1,Haakon
-SD,1,Jackson
+SC,5,Bamberg
+SC,6,Barnwell
+SC,7,Beaufort
+SC,8,Berkeley
+SC,9,Calhoun
 SD,1,Bennett
-SD,1,Shannon
-SD,1,Fall River
+SD,1,Butte
+SD,1,Corson
 SD,1,Custer
-SD,1,Pennington
-SD,1,Lawrence
-SD,1,Meade
-SD,1,Stanley
+SD,1,Dewey
+SD,1,Fall River
+SD,1,Gregory
+SD,1,Haakon
+SD,1,Harding
+SD,1,Jackson
 SD,1,Jones
+SD,1,Lawrence
 SD,1,Lyman
+SD,1,Meade
 SD,1,Mellette
+SD,1,Pennington
+SD,1,Perkins
+SD,1,Shannon
+SD,1,Stanley
 SD,1,Todd
 SD,1,Tripp
-SD,1,Gregory
+SD,1,Ziebach
+SD,2,Clay
 SD,2,Lake
-SD,2,Moody
+SD,2,Lincoln
 SD,2,McCook
 SD,2,Minnehaha
+SD,2,Moody
 SD,2,Turner
-SD,2,Lincoln
-SD,2,Clay
 SD,2,Union
+SD,3,Beadle
+SD,3,Brookings
+SD,3,Brown
 SD,3,Campbell
-SD,3,Walworth
-SD,3,Potter
-SD,3,McPherson
+SD,3,Clark
+SD,3,Codington
+SD,3,Day
+SD,3,Deuel
 SD,3,Edmunds
 SD,3,Faulk
-SD,3,Brown
-SD,3,Spink
-SD,3,Marshall
-SD,3,Roberts
-SD,3,Day
 SD,3,Grant
-SD,3,Codington
-SD,3,Clark
 SD,3,Hamlin
-SD,3,Deuel
-SD,3,Brookings
 SD,3,Kingsbury
-SD,3,Beadle
-SD,4,Sully
-SD,4,Hughes
-SD,4,Hyde
-SD,4,Hand
-SD,4,Buffalo
-SD,4,Jerauld
-SD,4,Sanborn
-SD,4,Miner
-SD,4,Brule
+SD,3,Marshall
+SD,3,McPherson
+SD,3,Potter
+SD,3,Roberts
+SD,3,Spink
+SD,3,Walworth
 SD,4,Aurora
-SD,4,Davison
-SD,4,Hanson
-SD,4,Douglas
-SD,4,Charles Mix
-SD,4,Hutchinson
 SD,4,Bonn Homme
+SD,4,Brule
+SD,4,Buffalo
+SD,4,Charles Mix
+SD,4,Davison
+SD,4,Douglas
+SD,4,Hand
+SD,4,Hanson
+SD,4,Hughes
+SD,4,Hutchinson
+SD,4,Hyde
+SD,4,Jerauld
+SD,4,Miner
+SD,4,Sanborn
+SD,4,Sully
 SD,4,Yankton</p>
 TN,1,Carter
 TN,1,Greene
@@ -2405,261 +2405,260 @@ TN,8,Moore
 TN,8,Perry
 TN,8,Stewart
 TN,8,Wayne
+TX,1,Brown
 TX,1,Callahan
+TX,1,Coleman
+TX,1,Comanche
+TX,1,Eastland
+TX,1,Fisher
+TX,1,Haskell
 TX,1,Jones
+TX,1,Kent
+TX,1,Mitchell
+TX,1,Nolan
+TX,1,Runnels
+TX,1,Scurry
+TX,1,Shackelford
+TX,1,Stephens
+TX,1,Stonewall
 TX,1,Taylor
+TX,1,Throckmorton
+TX,10,Galveston
+TX,10,Harris
+TX,11,Bell
+TX,11,Coryell
+TX,11,Hamilton
+TX,11,Lampasas
+TX,11,Mills
+TX,11,San Saba
+TX,12,Duval
+TX,12,Jim Hogg
+TX,12,McMullen
+TX,12,Webb
+TX,12,Zapata
+TX,13,Gregg
+TX,13,Harrison
+TX,13,Marion
+TX,13,Panola
+TX,13,Rusk
+TX,13,Upshur
+TX,14,Bailey
+TX,14,Cochran
+TX,14,Crosby
+TX,14,Dickens
+TX,14,Floyd
+TX,14,Garza
+TX,14,Hale
+TX,14,Hockley
+TX,14,King
+TX,14,Lamb
+TX,14,Lubbock
+TX,14,Lynn
+TX,14,Motley
+TX,14,Terry
+TX,14,Yoakum
+TX,15,Brooks
+TX,15,Hidalgo
+TX,15,Starr
+TX,16,Andrews
+TX,16,Borden
+TX,16,Crane
+TX,16,Dawson
+TX,16,Ector
+TX,16,Gaines
+TX,16,Glasscock
+TX,16,Howard
+TX,16,Loving
+TX,16,Martin
+TX,16,Midland
+TX,16,Pecos
+TX,16,Reeves
+TX,16,Terrell
+TX,16,Upton
+TX,16,Ward
+TX,16,Winkler
+TX,17,Coke
+TX,17,Concho
+TX,17,Crockett
+TX,17,Irion
+TX,17,Kimble
+TX,17,Mason
+TX,17,McCulloch
+TX,17,Menard
+TX,17,Reagan
+TX,17,Schleicher
+TX,17,Sterling
+TX,17,Sutton
+TX,17,Tom Green
+TX,18,Atascosa
+TX,18,Bandera
+TX,18,Bexar
+TX,18,Comal
+TX,18,Dimmit
+TX,18,Edwards
+TX,18,Frio
+TX,18,Gillespie
+TX,18,Gonzales
+TX,18,Guadalupe
+TX,18,Kendall
+TX,18,Kerr
+TX,18,Kinney
+TX,18,La Salle
+TX,18,Maverick
+TX,18,Medina
+TX,18,Real
+TX,18,Uvalde
+TX,18,Val Verde
+TX,18,Wilson
+TX,18,Zavala
+TX,19,Cooke
+TX,19,Fannin
+TX,19,Grayson
 TX,2,Armstrong
+TX,2,Briscoe
 TX,2,Carson
+TX,2,Castro
+TX,2,Childress
+TX,2,Collingsworth
+TX,2,Dallam
+TX,2,Deaf Smith
+TX,2,Donley
+TX,2,Gray
+TX,2,Hall
+TX,2,Hansford
+TX,2,Hartley
+TX,2,Hemphill
+TX,2,Hutchinson
+TX,2,Lipscomb
+TX,2,Moore
+TX,2,Ochiltree
+TX,2,Oldham
+TX,2,Parmer
 TX,2,Potter
 TX,2,Randall
+TX,2,Roberts
+TX,2,Sherman
+TX,2,Swisher
+TX,2,Wheeler
+TX,20,Bowie
+TX,20,Camp
+TX,20,Cass
+TX,20,Delta
+TX,20,Franklin
+TX,20,Hopkins
+TX,20,Lamar
+TX,20,Morris
+TX,20,Red River
+TX,20,Titus
+TX,21,Anderson
+TX,21,Cherokee
+TX,21,Henderson
+TX,21,Rains
+TX,21,Smith
+TX,21,Van Zandt
+TX,21,Wood
+TX,22,Calhoun
+TX,22,DeWitt
+TX,22,Goliad
+TX,22,Jackson
+TX,22,Karnes
+TX,22,Lavaca
+TX,22,Victoria
+TX,23,Bosque
+TX,23,Falls
+TX,23,Freestone
+TX,23,Hill
+TX,23,Limestone
+TX,23,McLennan
+TX,24,Archer
+TX,24,Baylor
+TX,24,Clay
+TX,24,Cottle
+TX,24,Foard
+TX,24,Hardeman
+TX,24,Jack
+TX,24,Knox
+TX,24,Montague
+TX,24,Wichita
+TX,24,Wilbarger
+TX,24,Young
+TX,25,Denton
+TX,25,Erath
+TX,25,Hood
+TX,25,Johnson
+TX,25,Palo Pinto
+TX,25,Parker
+TX,25,Somervell
+TX,25,Tarrant
+TX,25,Wise
+TX,26,Austin
+TX,26,Brazoria
+TX,26,Colorado
+TX,26,Fort Bend
+TX,26,Matagorda
+TX,26,Waller
+TX,26,Wharton
+TX,27,Chambers
+TX,27,Liberty
+TX,27,Montgomery
+TX,27,Walker
 TX,3,Bastrop
+TX,3,Blanco
+TX,3,Burnet
 TX,3,Caldwell
+TX,3,Fayette
 TX,3,Hays
+TX,3,Lee
+TX,3,Llano
 TX,3,Travis
 TX,3,Williamson
+TX,4,Angelina
 TX,4,Hardin
+TX,4,Houston
+TX,4,Jasper
 TX,4,Jefferson
+TX,4,Nacogdoches
+TX,4,Newton
 TX,4,Orange
+TX,4,Polk
+TX,4,Sabine
+TX,4,San Augustine
+TX,4,San Jacinto
+TX,4,Shelby
+TX,4,Trinity
+TX,4,Tyler
 TX,5,Cameron
+TX,5,Kenedy
+TX,5,Willacy
 TX,6,Brazos
 TX,6,Burleson
+TX,6,Grimes
+TX,6,Leon
+TX,6,Madison
+TX,6,Milam
 TX,6,Robertson
+TX,6,Washington
 TX,7,Aransas
+TX,7,Bee
+TX,7,Jim Wells
+TX,7,Kleberg
+TX,7,Live Oak
 TX,7,Nueces
+TX,7,Refugio
 TX,7,San Patricio
 TX,8,Collin
 TX,8,Dallas
-TX,8,Delta
-TX,8,Denton
 TX,8,Ellis
 TX,8,Hunt
-TX,8,Johnson
 TX,8,Kaufman
-TX,8,Parker
+TX,8,Navarro
 TX,8,Rockwall
-TX,8,Tarrant
-TX,8,Wise
+TX,9,Brewster
+TX,9,Culberson
 TX,9,El Paso
-TX,10,Austin
-TX,10,Brazoria
-TX,10,Chambers
-TX,10,Fort Bend
-TX,10,Galveston
-TX,10,Harris
-TX,10,Liberty
-TX,10,Montgomery
-TX,10,San Jacinto
-TX,10,Waller
-TX,11,Bell
-TX,11,Coryell
-TX,11,Lampasas
-TX,12,Webb
-TX,13,Gregg
-TX,13,Rusk
-TX,13,Upshur
-TX,14,Crosby
-TX,14,Lubbock
-TX,15,Hidalgo
-TX,16,Midland
-TX,17,Ector
-TX,18,Irion
-TX,18,Tom Green
-TX,19,Atascosa
-TX,19,Bandera
-TX,19,Bexar
-TX,19,Comal
-TX,19,Guadalupe
-TX,19,Kendall
-TX,19,Medina
-TX,19,Wilson
-TX,20,Grayson
-TX,21,Bowie
-TX,22,Smith
-TX,23,Calhoun
-TX,23,Goliad
-TX,23,Victoria
-TX,24,McLennan
-TX,25,Archer
-TX,25,Clay
-TX,25,Wichita
-TX,26,Jim Wells
-TX,26,Andrews
-TX,26,Henderson
-TX,26,Matagorda
-TX,26,Bee
-TX,26,Howard
-TX,26,Fannin
-TX,26,Hutchinson
-TX,26,Washington
-TX,26,Brown
-TX,26,Navarro
-TX,26,Val Verde
-TX,26,Moore
-TX,26,Maverick
-TX,26,Wharton
-TX,26,Gillespie
-TX,26,Cooke
-TX,26,Hood
-TX,26,Somervell
-TX,26,Deaf Smith
-TX,26,Walker
-TX,26,Cherokee
-TX,26,Kerr
-TX,26,Kenedy
-TX,26,Kleberg
-TX,26,Dawson
-TX,26,Hockley
-TX,26,Angelina
-TX,26,Burnet
-TX,26,Harrison
-TX,26,Palo Pinto
-TX,26,Titus
-TX,26,Nacogdoches
-TX,26,Anderson
-TX,26,Gray
-TX,26,Roberts
-TX,26,Lamar
-TX,26,Reeves
-TX,26,Hale
-TX,26,Willacy
-TX,26,Starr
-TX,26,Scurry
-TX,26,Erath
-TX,26,Hopkins
-TX,26,Nolan
-TX,26,Uvalde
-TX,26,Wilbarger
-TX,26,Camp
-TX,26,Cass
-TX,26,Castro
-TX,26,Childress
-TX,26,Cochran
-TX,26,Coke
-TX,26,Coleman
-TX,26,Collingsworth
-TX,26,Colorado
-TX,26,Comanche
-TX,26,Concho
-TX,26,Cottle
-TX,26,Crane
-TX,26,Crockett
-TX,26,Culbertson
-TX,26,Dallam
-TX,26,DeWitt
-TX,26,Dickens
-TX,26,Dimmit
-TX,26,Donley
-TX,26,Duval
-TX,26,Eastland
-TX,26,Edwards
-TX,26,Falls
-TX,26,Fayette
-TX,26,Fisher
-TX,26,Floyd
-TX,26,Foard
-TX,26,Franklin
-TX,26,Freestone
-TX,26,Frio
-TX,26,Gaines
-TX,26,Garza
-TX,26,Glasscock
-TX,26,Gonzales
-TX,26,Grimes
-TX,26,Upton
-TX,26,Van Zandt
-TX,26,Ward
-TX,26,Wheiler
-TX,26,Winkler
-TX,26,Wood
-TX,26,Yoakum
-TX,26,Young
-TX,26,Zapata
-TX,26,Zavala
-TX,26,Brooks
-TX,26,Bailey
-TX,26,Baylor
-TX,26,Blanco
-TX,26,Borden
-TX,26,Bosque
-TX,26,Brewster
-TX,26,Briscoe
-TX,26,Shackelford
-TX,26,Shelby
-TX,26,Sherman
-TX,26,Stephens
-TX,26,Sterling
-TX,26,Stonewall
-TX,26,Sutton
-TX,26,Swisher
-TX,26,Terrell
-TX,26,Terry
-TX,26,Throckmorton
-TX,26,Trinity
-TX,26,Tyler
-TX,26,Rains
-TX,26,Reagan
-TX,26,Real
-TX,26,Red River
-TX,26,Refugio
-TX,26,Runnels
-TX,26,Sabine
-TX,26,San Augustine
-TX,26,San Saba
-TX,26,Schleicher
-TX,26,Morris
-TX,26,Motley
-TX,26,Newton
-TX,26,Nolan
-TX,26,Ochittree
-TX,26,Oldham
-TX,26,Panola
-TX,26,Parmer
-TX,26,Pecos
-TX,26,Polk
-TX,26,Presidio
-TX,26,Madison
-TX,26,Marion
-TX,26,Martin
-TX,26,Mason
-TX,26,McCulloch
-TX,26,McMullen
-TX,26,Menard
-TX,26,Milam
-TX,26,Mills
-TX,26,Mitchell
-TX,26,Montague
-TX,26,Hall
-TX,26,Hamilton
-TX,26,Hansford
-TX,26,Hardeman
-TX,26,Hartley
-TX,26,Haskell
-TX,26,Hemphill
-TX,26,Hill
-TX,26,Houston
-TX,26,Hudspeth
-TX,26,Jack
-TX,26,Jackson
-TX,26,Jasper
-TX,26,Jim Hogg
-TX,26,Jeff Davis
-TX,26,Karnes
-TX,26,Kent
-TX,26,Kimble
-TX,26,King
-TX,26,Kinney
-TX,26,Knox
-TX,26,La Salle
-TX,26,Lamb
-TX,26,Lavaca
-TX,26,Lee
-TX,26,Leon
-TX,26,Limestone
-TX,26,Lipscomb
-TX,26,Live Oak
-TX,26,Llano
-TX,26,Loving
-TX,26,Lynn
+TX,9,Hudspeth
+TX,9,Jeff Davis
+TX,9,Presidio
 UT,1,Cache
 UT,1,Rich
 UT,2,Box Elder
@@ -2693,80 +2692,21 @@ VA,1,Giles
 VA,1,Montgomery
 VA,1,Pulaski
 VA,1,Radford City
-VA,2,Albemarle
-VA,2,Fluvanna
-VA,2,Greene
-VA,2,Nelson
-VA,2,Charlottesville City
-VA,3,Pittsylvania
-VA,3,Danville City
-VA,4,Rockingham
-VA,4,Harrisonburg City
-VA,5,Scott
-VA,5,Washington
-VA,5,Bristol City
-VA,6,Amherst
-VA,6,Appomattox
-VA,6,Bedford
-VA,6,Campbell
-VA,6,Bedford City
-VA,6,Lynchburg City
-VA,7,Amelia
-VA,7,Caroline
-VA,7,Charles City
-VA,7,Chesterfield
-VA,7,Cumberland
-VA,7,Dinwiddie
-VA,7,Goochland
-VA,7,Hanover
-VA,7,Henrico
-VA,7,King and Queen
-VA,7,King William
-VA,7,Louisa
-VA,7,New Kent
-VA,7,Powhatan
-VA,7,Prince George
-VA,7,Sussex
-VA,7,Colonial Heights City
-VA,7,Hopewell City
-VA,7,Petersburg City
-VA,7,Richmond City
-VA,8,Botetourt
-VA,8,Craig
-VA,8,Franklin
-VA,8,Roanoke
-VA,8,Roanoke City
-VA,8,Salem City
-VA,9,Gloucester
-VA,9,Isle of Wight
-VA,9,James City
-VA,9,Mathews
-VA,9,Surry
-VA,9,York
-VA,9,Chesapeake City
-VA,9,Hampton City
-VA,9,Newport News City
-VA,9,Norfolk City
-VA,9,Poquoson City
-VA,9,Portsmouth City
-VA,9,Suffolk City
-VA,9,Virginia Beach City
-VA,9,Williamsburg City
+VA,10,Alexandria City
 VA,10,Arlington
 VA,10,Clarke
 VA,10,Fairfax
+VA,10,Fairfax City
+VA,10,Falls Church City
 VA,10,Fauquier
+VA,10,Fredericksburg City
 VA,10,Loudoun
+VA,10,Manassas City
+VA,10,Manassas Park City
 VA,10,Prince William
 VA,10,Spotsylvania
 VA,10,Stafford
 VA,10,Warren
-VA,10,Alexandria City
-VA,10,Fairfax City
-VA,10,Falls Church City
-VA,10,Fredericksburg City
-VA,10,Manassas City
-VA,10,Manassas Park City
 VA,11,Frederick
 VA,11,Winchester City
 VA,12,Accomack
@@ -2777,12 +2717,17 @@ VA,12,Bland
 VA,12,Brunswick
 VA,12,Buchanan
 VA,12,Buckingham
+VA,12,Buena Vista City
 VA,12,Carroll
 VA,12,Charlotte
+VA,12,Covington City
 VA,12,Culpeper
 VA,12,Dickenson
+VA,12,Emporia City
 VA,12,Essex
 VA,12,Floyd
+VA,12,Franklin City
+VA,12,Galax City
 VA,12,Grayson
 VA,12,Greensville
 VA,12,Halifax
@@ -2791,12 +2736,15 @@ VA,12,Highland
 VA,12,King George
 VA,12,Lancaster
 VA,12,Lee
+VA,12,Lexington City
 VA,12,Lunenburg
 VA,12,Madison
+VA,12,Martinsville City
 VA,12,Mecklenburg
 VA,12,Middlesex
 VA,12,Northampton
 VA,12,Northumberland
+VA,12,Norton City
 VA,12,Nottoway
 VA,12,Orange
 VA,12,Page
@@ -2809,27 +2757,78 @@ VA,12,Russell
 VA,12,Shenandoah
 VA,12,Smyth
 VA,12,Southampton
+VA,12,Staunton City
 VA,12,Tazewell
+VA,12,Waynesboro City
 VA,12,Westmoreland
 VA,12,Wise
 VA,12,Wythe
-VA,12,Buena Vista City
-VA,12,Covington City
-VA,12,Emporia City
-VA,12,Franklin City
-VA,12,Galax City
-VA,12,Lexington City
-VA,12,Martinsville City
-VA,12,Norton City
-VA,12,Staunton City
-VA,12,Waynesboro City
-VT,1,Chittenden
-VT,1,Franklin
-VT,1,Grand Isle
+VA,2,Albemarle
+VA,2,Charlottesville City
+VA,2,Fluvanna
+VA,2,Greene
+VA,2,Nelson
+VA,3,Danville City
+VA,3,Pittsylvania
+VA,4,Harrisonburg City
+VA,4,Rockingham
+VA,5,Bristol City
+VA,5,Scott
+VA,5,Washington
+VA,6,Amherst
+VA,6,Appomattox
+VA,6,Bedford
+VA,6,Bedford City
+VA,6,Campbell
+VA,6,Lynchburg City
+VA,7,Amelia
+VA,7,Caroline
+VA,7,Charles City
+VA,7,Chesterfield
+VA,7,Colonial Heights City
+VA,7,Cumberland
+VA,7,Dinwiddie
+VA,7,Goochland
+VA,7,Hanover
+VA,7,Henrico
+VA,7,Hopewell City
+VA,7,King William
+VA,7,King and Queen
+VA,7,Louisa
+VA,7,New Kent
+VA,7,Petersburg City
+VA,7,Powhatan
+VA,7,Prince George
+VA,7,Richmond City
+VA,7,Sussex
+VA,8,Botetourt
+VA,8,Craig
+VA,8,Franklin
+VA,8,Roanoke
+VA,8,Roanoke City
+VA,8,Salem City
+VA,9,Chesapeake City
+VA,9,Gloucester
+VA,9,Hampton City
+VA,9,Isle of Wight
+VA,9,James City
+VA,9,Mathews
+VA,9,Newport News City
+VA,9,Norfolk City
+VA,9,Poquoson City
+VA,9,Portsmouth City
+VA,9,Suffolk City
+VA,9,Surry
+VA,9,Virginia Beach City
+VA,9,Williamsburg City
+VA,9,York
 VT,1,Addison
 VT,1,Bennington
 VT,1,Caledonia
+VT,1,Chittenden
 VT,1,Essex
+VT,1,Franklin
+VT,1,Grand Isle
 VT,1,Lamoille
 VT,1,Orange
 VT,1,Orleans
@@ -2843,9 +2842,9 @@ WA,2,Cowlitz
 WA,2,Grays Harbor
 WA,2,Island
 WA,2,Jefferson
-WA,2,Mason
-WA,2,Lewis
 WA,2,Kitsap
+WA,2,Lewis
+WA,2,Mason
 WA,2,Pacific
 WA,2,Pierce
 WA,2,San Juan
@@ -2877,77 +2876,77 @@ WA,5,Walla Walla
 WA,5,Whitman
 WA,5,Yakima
 WI,1,Milwaukee
+WI,10,Lincoln
+WI,10,Marathon
+WI,10,Portage
+WI,10,Wood
+WI,11,Calumet
+WI,11,Dodge
+WI,11,Fond du Lac
+WI,11,Outagamie
+WI,11,Sheboygan
+WI,11,Waupaca
+WI,11,Waushara
+WI,11,Winnebago
+WI,12,Ozaukee
+WI,12,Washington
+WI,12,Waukesha
+WI,13,Florence
+WI,13,Forest
+WI,13,Iron
+WI,13,Langlade
+WI,13,Oneida
+WI,13,Vilas
+WI,14,Columbia
+WI,14,Green
+WI,14,Jefferson
+WI,14,Rock
+WI,14,Walworth
+WI,15,Adams
+WI,15,Green Lake
+WI,15,Juneau
+WI,15,Marquette
+WI,15,Richland
+WI,15,Sauk
+WI,16,Brown
+WI,16,Door
+WI,16,Kewaunee
+WI,16,Manitowoc
+WI,16,Marinette
+WI,16,Menominee
+WI,16,Oconto
+WI,16,Shawano
 WI,2,Dane
+WI,3,Pierce
 WI,3,Polk
 WI,3,St. Croix
-WI,3,Pierce
-WI,4,Dunn
-WI,4,Pepin
 WI,4,Chippewa
+WI,4,Dunn
 WI,4,Eau Claire
-WI,5,Douglas
-WI,5,Bayfield
+WI,4,Pepin
 WI,5,Ashland
+WI,5,Bayfield
 WI,5,Burnett
-WI,5,Washburn
+WI,5,Douglas
 WI,5,Sawyer
+WI,5,Washburn
 WI,6,Buffalo
-WI,6,Trempealeau
 WI,6,Jackson
 WI,6,La Crosse
 WI,6,Monroe
-WI,7,Vernon
+WI,6,Trempealeau
 WI,7,Crawford
 WI,7,Grant
 WI,7,Iowa
 WI,7,LaFayette
+WI,7,Vernon
 WI,8,Barron
-WI,8,Rusk
-WI,8,Price
-WI,8,Taylor
 WI,8,Clark
-WI,9,Racine
+WI,8,Price
+WI,8,Rusk
+WI,8,Taylor
 WI,9,Kenosha
-WI,10,Lincoln
-WI,10,Marathon
-WI,10,Wood
-WI,10,Portage
-WI,11,Waupaca
-WI,11,Outagamie
-WI,11,Waushara
-WI,11,Winnebago
-WI,11,Calumet
-WI,11,Fond du Lac
-WI,11,Sheboygan
-WI,11,Dodge
-WI,12,Washington
-WI,12,Ozaukee
-WI,12,Waukesha
-WI,13,Iron
-WI,13,Vilas
-WI,13,Oneida
-WI,13,Forest
-WI,13,Florence
-WI,13,Langlade
-WI,14,Green
-WI,14,Rock
-WI,14,Walworth
-WI,14,Jefferson
-WI,14,Columbia
-WI,15,Juneau
-WI,15,Adams
-WI,15,Marquette
-WI,15,Green Lake
-WI,15,Richland
-WI,15,Sauk
-WI,16,Marinette
-WI,16,Oconto
-WI,16,Menominee
-WI,16,Shawano
-WI,16,Brown
-WI,16,Manitowoc
-WI,16,Kewaunee
-WI,16,Door
+WI,9,Racine
 WV,1,Braxton
 WV,1,Calhoun
 WV,1,Clay
@@ -2955,6 +2954,16 @@ WV,1,Fayette
 WV,1,Greenbrier
 WV,1,Nicholas
 WV,1,Roane
+WV,10,Jackson
+WV,10,Pleasants
+WV,10,Ritchie
+WV,10,Tyler
+WV,10,Wirt
+WV,10,Wood
+WV,11,Brooke
+WV,11,Hancock
+WV,11,Marshall
+WV,11,Ohio
 WV,2,Kanawha
 WV,3,Boone
 WV,3,Lincoln
@@ -2993,16 +3002,6 @@ WV,9,Taylor
 WV,9,Tucker
 WV,9,Upshur
 WV,9,Webster
-WV,10,Jackson
-WV,10,Pleasants
-WV,10,Ritchie
-WV,10,Tyler
-WV,10,Wirt
-WV,10,Wood
-WV,11,Brooke
-WV,11,Hancock
-WV,11,Marshall
-WV,11,Ohio
 WY,1,Natrona
 WY,2,Laramie
 WY,3,Albany
